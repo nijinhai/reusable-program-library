@@ -1,5 +1,7 @@
 # Reusable Program Library
 
+[![checks](https://github.com/nijinhai/reusable-program-library/actions/workflows/checks.yml/badge.svg)](https://github.com/nijinhai/reusable-program-library/actions/workflows/checks.yml)
+
 **从输入输出示例合成函数，验证后入库，再与已有操作组合解决新任务。**
 
 一个仅依赖 Python 标准库的研究原型，展示符号程序合成、可执行函数库、预算约束搜索，以及严格区分拟合、验证与测试的实验流程。
