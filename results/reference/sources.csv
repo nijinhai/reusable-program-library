@@ -1,0 +1,25 @@
+seed,task_id,kind,base_found,acquired,proposal_calls,attempted,learned_id,expr
+801,cg-801-source-000,reverse,False,True,12,1,g06fdff197b83,(text)[::-1]
+801,cg-801-source-001,reverse,False,True,12,1,g06fdff197b83,(text)[::-1]
+801,cg-801-source-002,replace,False,True,14,3,g6161badcbaa4,"(text).replace('_',':')"
+801,cg-801-source-003,replace,False,True,14,3,gabd34a8ad22b,"(text).replace('#',';')"
+801,cg-801-source-004,reorder,False,True,149,34,ge94011bae82c,"'/'.join([(text).split('|')[1],(text).split('|')[0]])"
+801,cg-801-source-005,reorder,False,True,188,37,g18ac40d31efb,"' '.join([(text).split(':')[2],(text).split(':')[0],(text).split(':')[1]])"
+801,cg-801-source-006,affine,False,True,88,17,gae17489ce943,"str(2*int(re.search(r'-?\d+',(text)).group(0))+(3))"
+801,cg-801-source-007,affine,False,True,88,17,g5f3a2d9dd28c,"str(3*int(re.search(r'-?\d+',(text)).group(0))+(-2))"
+802,cg-802-source-000,reverse,False,True,12,1,g06fdff197b83,(text)[::-1]
+802,cg-802-source-001,reverse,False,True,12,1,g06fdff197b83,(text)[::-1]
+802,cg-802-source-002,replace,False,True,14,3,g6161badcbaa4,"(text).replace('_',':')"
+802,cg-802-source-003,replace,False,True,14,3,gabd34a8ad22b,"(text).replace('#',';')"
+802,cg-802-source-004,reorder,False,True,149,34,ge94011bae82c,"'/'.join([(text).split('|')[1],(text).split('|')[0]])"
+802,cg-802-source-005,reorder,False,True,188,37,g18ac40d31efb,"' '.join([(text).split(':')[2],(text).split(':')[0],(text).split(':')[1]])"
+802,cg-802-source-006,affine,False,True,88,17,gae17489ce943,"str(2*int(re.search(r'-?\d+',(text)).group(0))+(3))"
+802,cg-802-source-007,affine,False,True,88,17,g5f3a2d9dd28c,"str(3*int(re.search(r'-?\d+',(text)).group(0))+(-2))"
+803,cg-803-source-000,reverse,False,True,12,1,g06fdff197b83,(text)[::-1]
+803,cg-803-source-001,reverse,False,True,12,1,g06fdff197b83,(text)[::-1]
+803,cg-803-source-002,replace,False,True,14,3,g6161badcbaa4,"(text).replace('_',':')"
+803,cg-803-source-003,replace,False,True,14,3,gabd34a8ad22b,"(text).replace('#',';')"
+803,cg-803-source-004,reorder,False,True,149,34,ge94011bae82c,"'/'.join([(text).split('|')[1],(text).split('|')[0]])"
+803,cg-803-source-005,reorder,False,True,188,37,g18ac40d31efb,"' '.join([(text).split(':')[2],(text).split(':')[0],(text).split(':')[1]])"
+803,cg-803-source-006,affine,False,True,88,17,gae17489ce943,"str(2*int(re.search(r'-?\d+',(text)).group(0))+(3))"
+803,cg-803-source-007,affine,False,True,88,17,g5f3a2d9dd28c,"str(3*int(re.search(r'-?\d+',(text)).group(0))+(-2))"

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "g06fdff197b83",
+    "kind": "reverse",
+    "expr": "(text)[::-1]",
+    "source": "def solve(text):\n    return (text)[::-1]\n",
+    "cost": 1
+  },
+  {
+    "id": "g6161badcbaa4",
+    "kind": "replace",
+    "expr": "(text).replace('_',':')",
+    "source": "def solve(text):\n    return (text).replace('_',':')\n",
+    "cost": 1
+  },
+  {
+    "id": "gabd34a8ad22b",
+    "kind": "replace",
+    "expr": "(text).replace('#',';')",
+    "source": "def solve(text):\n    return (text).replace('#',';')\n",
+    "cost": 1
+  },
+  {
+    "id": "ge94011bae82c",
+    "kind": "reorder",
+    "expr": "'/'.join([(text).split('|')[1],(text).split('|')[0]])",
+    "source": "def solve(text):\n    return '/'.join([(text).split('|')[1],(text).split('|')[0]])\n",
+    "cost": 5
+  },
+  {
+    "id": "g18ac40d31efb",
+    "kind": "reorder",
+    "expr": "' '.join([(text).split(':')[2],(text).split(':')[0],(text).split(':')[1]])",
+    "source": "def solve(text):\n    return ' '.join([(text).split(':')[2],(text).split(':')[0],(text).split(':')[1]])\n",
+    "cost": 7
+  },
+  {
+    "id": "gae17489ce943",
+    "kind": "affine",
+    "expr": "str(2*int(re.search(r'-?\\d+',(text)).group(0))+(3))",
+    "source": "def solve(text):\n    return str(2*int(re.search(r'-?\\d+',(text)).group(0))+(3))\n",
+    "cost": 6
+  },
+  {
+    "id": "g5f3a2d9dd28c",
+    "kind": "affine",
+    "expr": "str(3*int(re.search(r'-?\\d+',(text)).group(0))+(-2))",
+    "source": "def solve(text):\n    return str(3*int(re.search(r'-?\\d+',(text)).group(0))+(-2))\n",
+    "cost": 6
+  }
+]

@@ -1,0 +1,4 @@
+arm,n,strict,future_runtime,future_proposal,future_validation,source_acquisition,birth_replay,incremental_total,using_new_function
+BASE,156,0,1164276,0,0,0,0,1164276,0
+REPROPOSE,156,135,1164276,17589,0,1695,0,1183560,135
+LIBRARY,156,108,781536,0,1524,1695,4860,789615,108
